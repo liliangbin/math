@@ -23,7 +23,6 @@ public class MoreService {
                 for (int z = 0; z < i; z++) {
                     sum = sum * x[j];
                 }
-
             }
             Ex[i] = sum;
         }
@@ -46,7 +45,7 @@ public class MoreService {
 
             for (int j = i; j < a.length + i; j++) {
 
-                ab[i][j] = 
+                ab[i][j] = 2;
             }
         }
 

@@ -13,6 +13,14 @@ public class Service {
         this.a = a;
     }
 
+    public double[] getB() {
+        return b;
+    }
+
+    public void setB(double[] b) {
+        this.b = b;
+    }
+
     double k = 1, emax, s;
 
     double[] lalal() {
@@ -41,7 +49,7 @@ public class Service {
 
     }
 
-    double[] name() {
+    public  double[] name() {
 
         while (true) {
 
